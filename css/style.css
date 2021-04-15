@@ -1,0 +1,25 @@
+
+tr:nth-child(even){
+    background-color: #f2f2f2; }
+
+    .btn {
+        width: 200px;
+    }
+
+h1 {
+    color: red;
+    text-shadow: 2px 2px rosybrown;
+}
+
+th {
+    color: gray;
+    
+}
+
+.btn {
+    text-transform: uppercase;
+}
+input {
+    padding: 2px;
+    margin: 2px;
+}

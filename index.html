@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="container">
+    <h1>Async JS</h1>
+    <input type="text" readonly placeholder="Get data" />
+    <button id="getData" class="btn btn-success">Get Data</button>
+    <br>
+    <hr>
+
+    <input type="number" value="" id="idUpdate" placeholder="ID" /> <br>
+    <input type="text" value="" id="titleUpdate" placeholder="Title" /> <br>
+    <input type="text" value="" id="bodyUpdate" placeholder="Body"/> <br>
+    <input type="text" value="" id="authorUpdate" placeholder="Author"/> <br>
+    <input type="text" value="" id="category_idUpdate" placeholder="Category ID"/>
+    
+    <button id="updateData" class="btn btn-primary">Update Data</button>
+    <hr>
+    
+    <input type="text" id="titleCreate" placeholder="Title" /> <br>
+
+    <input type="text" id="contentCreate" placeholder="Content"/> <br>
+    <input type="text" id="authorCreate" placeholder="Author"/> <br>
+    <input type="text" id="category_idCreate" placeholder="Category ID" /> <button id="createData" class="btn btn-info">Create</button>
+
+    <hr>
+    <input type="text" id="deleteInput" placeholder="Enter id to delete" />
+
+    <button id="deleteData" class="btn btn-danger">DELETE</button>
+    <hr>
+
+    <table id="outputTable" class="stripped table table-bordered"> 
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Title</th>
+                <th>Body</th>
+                <th>Author</th>
+                <th>Category ID</th>
+                <th>Category Name</th>
+            </tr>
+        </thead>
+        <tbody>
+
+        </tbody>
+    </table>
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/DataSource.js"></script>
+    <script src="js/index.js"></script>
+</div>
+</body>
+</html>
